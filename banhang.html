@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pink Beauty</title>
+
+<link rel="stylesheet" href="filecss.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+    <div class="logo">
+        DOLY BEAUTY
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Tìm kiếm mỹ phẩm...">
+        <button>
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <div class="header-right">
+
+        <button class="login-btn">
+            <i class="fas fa-user"></i>
+            Đăng nhập
+        </button>
+
+        <button class="cart-btn" id="open-cart">
+            <i class="fas fa-cart-shopping"></i>
+            Giỏ hàng
+            <span id="cart-count">0</span>
+        </button>
+
+    </div>
+
+</header>
+
+<!-- MENU -->
+
+<nav class="navbar">
+
+<ul>
+
+<li class="menu-item">
+
+<button class="menu-btn danhmuc-btn">
+DANH MỤC
+</button>
+
+<div class="dropdown-menu">
+
+<div>Trang điểm</div>
+<div>Chăm sóc da mặt</div>
+<div>Chăm sóc cơ thể</div>
+<div>Chăm sóc tóc & da đầu</div>
+<div>Chăm sóc cá nhân</div>
+<div>Nước hoa</div>
+
+</div>
+
+</li>
+
+<!-- TRANG ĐIỂM -->
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Trang điểm
+</button>
+
+<div class="dropdown-menu">
+
+<div class="submenu-item">
+
+<button class="submenu-btn">
+Trang điểm mặt
+</button>
+
+<div class="submenu-content">
+
+<div>Kem lót</div>
+<div>Kem tone up</div>
+<div>Che khuyết điểm</div>
+<div>Kem nền - BB Cream</div>
+<div>Phấn nước - Cushion</div>
+<div>Phấn phủ</div>
+<div>Má hồng</div>
+<div>Tạo khối / Highlighter</div>
+<div>Xịt khóa makeup</div>
+
+</div>
+
+</div>
+
+<div class="submenu-item">
+
+<button class="submenu-btn">
+Trang điểm mắt môi
+</button>
+
+<div class="submenu-content">
+
+<div>Phấn mắt / Nhũ mắt</div>
+<div>Kẻ chân mày</div>
+<div>Eyeliner</div>
+<div>Mascara</div>
+<div>Son kem</div>
+<div>Son bóng</div>
+<div>Son thỏi</div>
+<div>Son dưỡng</div>
+<div>Mặt nạ ngủ môi</div>
+
+</div>
+
+</div>
+
+<div class="submenu-item">
+
+<button class="submenu-btn">
+Phụ kiện trang điểm
+</button>
+
+<div class="submenu-content">
+
+<div>Cọ trang điểm</div>
+<div>Bông mút trang điểm</div>
+<div>Phụ kiện làm sạch</div>
+<div>Phụ kiện khác</div>
+
+</div>
+
+</div>
+
+</div>
+
+</li>
+
+<!-- CHĂM SÓC DA -->
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Chăm sóc da mặt
+</button>
+
+<div class="dropdown-menu">
+
+<div class="submenu-item">
+
+<button class="submenu-btn">
+Tẩy trang - Làm sạch da
+</button>
+
+<div class="submenu-content">
+
+<div>Tẩy trang</div>
+<div>Sữa rửa mặt</div>
+<div>Tẩy tế bào chết</div>
+<div>Bông tẩy trang</div>
+<div>Khăn mặt đa năng</div>
+
+</div>
+
+</div>
+
+<div class="submenu-item">
+
+<button class="submenu-btn">
+Dưỡng da
+</button>
+
+<div class="submenu-content">
+
+<div>Nước hoa hồng</div>
+<div>Tinh chất dưỡng</div>
+<div>Sữa dưỡng</div>
+<div>Mặt nạ</div>
+<div>Gel dưỡng</div>
+<div>Xịt khoáng</div>
+
+</div>
+
+</div>
+
+<div>Chống nắng</div>
+<div>Dưỡng mắt / mi</div>
+<div>Dán mụn</div>
+<div>Giấy thấm dầu</div>
+
+</div>
+
+</li>
+
+<!-- CHĂM SÓC CƠ THỂ -->
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Chăm sóc cơ thể
+</button>
+
+<div class="dropdown-menu">
+
+<div>Làm sạch cơ thể</div>
+<div>Dưỡng thể</div>
+<div>Khử mùi</div>
+<div>Dưỡng da tay/chân</div>
+<div>Tẩy lông</div>
+
+</div>
+
+</li>
+
+<!-- TÓC -->
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Chăm sóc tóc & da đầu
+</button>
+
+<div class="dropdown-menu">
+
+<div>Dầu gội/xả</div>
+<div>Kem ủ tóc</div>
+<div>Dưỡng tóc</div>
+<div>Nhuộm tóc</div>
+
+</div>
+
+</li>
+
+<!-- CÁ NHÂN -->
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Chăm sóc cá nhân
+</button>
+
+<div class="dropdown-menu">
+
+<div>Khẩu trang</div>
+<div>Sơn móng tay</div>
+<div>Băng vệ sinh</div>
+<div>Dung dịch vệ sinh</div>
+<div>Kem đánh răng</div>
+<div>Nước súc miệng</div>
+
+</div>
+
+</li>
+
+<!-- NƯỚC HOA -->
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Nước hoa
+</button>
+
+<div class="dropdown-menu">
+
+<div>Nước hoa</div>
+<div>Body Mist</div>
+
+</div>
+
+</li>
+
+<li class="menu-item contact-menu">
+
+<button class="menu-btn">
+Liên hệ
+</button>
+
+</li>
+
+</ul>
+
+</nav>
+
+<!-- BANNER -->
+
+<section class="banner">
+
+<img src="Ảnh/banner.png" alt="Banner" >
+
+</section>
+
+<!-- SẢN PHẨM HOT -->
+
+<section class="products">
+
+<h2>SẢN PHẨM HOT</h2>
+
+<div class="product-grid">
+
+<div class="product-card">
+<img src="Ảnh/product 1.jpg">
+<h3>Sữa Chống Nắng Anessa Dưỡng Da Kiềm Dầu 60ml (Bản Mới)
+Perfect UV Sunscreen Skincare Milk N SPF50+ PA++++</h3>
+<p>432.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 2.jpg">
+<h3>Mặt Nạ Ngủ Môi Laneige Hương Quả Mọng 20g
+Lip Sleeping Mask EX [Berry]</h3>
+<p>335.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 3.jpg">
+<h3>Sữa Rửa Mặt CeraVe Sạch Sâu Cho Da Thường Đến Da Dầu 473ml</h3>
+<p>370.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product  4.jpg">
+<h3>Serum d'Alba Dạng Xịt Nấm Truffle Trắng Căng Bóng Da 100ml
+First Spray Serum</h3>
+<p>499.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 5.jpg">
+<h3>Serum L'Oreal Sáng Da, Mờ Thâm Mụn & Nám 30ml (Mới)
+Glycolic Bright Melasyl 8% [Melasyl+Glycolic+Niacinamide]></h3>
+<p>308.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 6.jpg">
+<h3>Bộ Gội Xả L'Oreal Dưỡng Tóc Suôn Mượt Tóc Cao Cấp 440mlx2
+Extraordinary Oil Smooth Shampoo & Conditioner</h3>
+<p>346.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 7.jpg">
+<h3>Serum La Roche-Posay Giảm Thâm Nám & Dưỡng Sáng Da 30ml</h3>
+<p>909.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 8.jpg">
+<h3>Son Kem Lì 3CE Laydown - Hồng Đào Trầm 4.6g
+Blur Water Tint</h3>
+<p>257.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+<div class="product-card">
+<img src="Ảnh/product 9.jpg">
+<h3>Mặt Nạ Beplain Đất Sét Từ Đậu Xanh Hỗ Trợ Sạch Sâu 120ml
+Mung Bean Pore Clay Mask</h3>
+<p>296.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 10.webp">
+<h3>Lemonade Bảng mắt Aesthetic Eyeshadow Palette 16 ô 20.8g #Version 2</h3>
+<p>371.642đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 11.jpg">
+<h3>Some By Mi Sữa tắm AHA.BHA.PHA 30 Days Miracle Acne Clear Body Cleanser 400g</h3>
+<p>310.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+<div class="product-card">
+<img src="Ảnh/product 12.avif">
+<h3>Combo Cocoon Nước Cân Bằng Sen Hậu Giang 310ml + Nước Tẩy Trang Bí Đao 500ml</h3>
+<p>278.000đ</p>
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<h3>GIỚI THIỆU</h3>
+
+<p>📍 Nguyễn Chí Thanh, Hà Nội</p>
+
+<p>📞 0987 654 321</p>
+
+<p>📧 dolybeauty@gmail.com</p>
+
+<input type="email"
+placeholder="Nhập email của bạn">
+
+<button>
+Liên hệ
+</button>
+
+</div>
+
+<div class="footer-box">
+
+<h3>CHĂM SÓC KHÁCH HÀNG</h3>
+
+<p>Chính sách đổi trả</p>
+<p>Chính sách bảo mật</p>
+<p>Chính sách thanh toán</p>
+<p>Điều khoản dịch vụ</p>
+<p>Hướng dẫn mua hàng</p>
+<p>Hướng dẫn thanh toán VNPAY</p>
+<p>Hóa đơn GTGT</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>CHÍNH SÁCH</h3>
+
+<p>Hướng dẫn mua hàng</p>
+<p>Quy định và hình thức thanh toán</p>
+<p>Chính sách giao hàng</p>
+<p>Chính sách đổi trả</p>
+<p>Chính sách tích lũy điểm</p>
+<p>Chính sách bảo mật thông tin</p>
+<p>Giao hàng siêu tốc 1H</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!--Giỏ hàng-->
+<div class="cart-sidebar" id="cart-sidebar">
+
+    <div class="cart-header">
+
+        <h2>🛒 Giỏ Hàng</h2>
+
+        <span id="close-cart">✖</span>
+
+    </div>
+
+    <div id="cart-items">
+
+        <p>Chưa có sản phẩm nào.</p>
+
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Tổng:
+            <span id="total-price">
+                0đ
+            </span>
+        </h3>
+
+    </div>
+
+</div>
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+/* ĐẾM GIỎ HÀNG */
+
+let cartCount = 0;
+let totalPrice = 0;
+
+const cartItems =
+document.getElementById("cart-items");
+
+const totalPriceText =
+document.getElementById("total-price");
+
+const addButtons =
+document.querySelectorAll(".add-cart");
+
+const cartNumber =
+document.getElementById("cart-count");
+
+addButtons.forEach(button => {
+
+button.addEventListener("click", () => {
+
+cartCount++;
+
+cartNumber.textContent = cartCount;
+const card =
+    button.closest(".product-card");
+
+    const name =
+    card.querySelector("h3").innerText;
+
+    const price =
+    card.querySelector("p").innerText;
+
+    const item =
+    document.createElement("div");
+
+    item.classList.add("cart-item");
+
+    item.innerHTML = `
+    <div class="cart-item-info">
+        <h4>${name}</h4>
+        <p>${price}</p>
+    </div>
+
+    <button class="remove-item">
+        <i class="fas fa-trash"></i>
+    </button>
+`;
+
+    if(cartItems.innerHTML.includes("Chưa có sản phẩm")){
+
+        cartItems.innerHTML = "";
+    }
+
+    cartItems.appendChild(item);
+    const removeBtn =
+item.querySelector(".remove-item");
+
+removeBtn.addEventListener("click", () => {
+
+    item.remove();
+
+    cartCount--;
+
+    if(cartCount < 0){
+        cartCount = 0;
+    }
+
+    cartNumber.textContent = cartCount;
+
+    totalPrice -= parseInt(
+        price.replace(/\D/g,"")
+    );
+
+    if(totalPrice < 0){
+        totalPrice = 0;
+    }
+
+    totalPriceText.textContent =
+    totalPrice.toLocaleString("vi-VN") + "đ";
+
+    if(cartItems.children.length === 0){
+
+        cartItems.innerHTML =
+        "<p>Chưa có sản phẩm nào.</p>";
+
+    }
+
+});
+
+    totalPrice += parseInt(
+    price.replace(/\D/g,"")
+    );
+
+    totalPriceText.textContent =
+    totalPrice.toLocaleString("vi-VN")
+    + "đ";
+
+});
+
+});
+
+/* MENU CLICK */
+
+const menuButtons =
+document.querySelectorAll(".menu-btn");
+
+menuButtons.forEach(btn => {
+
+btn.addEventListener("click", function(e){
+
+e.preventDefault();
+
+const dropdown =
+this.nextElementSibling;
+
+if(dropdown){
+
+if(dropdown.style.display === "block"){
+
+dropdown.style.display = "none";
+
+}else{
+
+document
+.querySelectorAll(".dropdown-menu")
+.forEach(menu => {
+
+menu.style.display = "none";
+
+});
+
+dropdown.style.display = "block";
+
+}
+
+}
+
+});
+
+});
+
+/* SUBMENU CLICK */
+
+const submenuButtons =
+document.querySelectorAll(".submenu-btn");
+
+submenuButtons.forEach(btn => {
+
+btn.addEventListener("click", function(e){
+
+e.stopPropagation();
+
+const sub =
+this.nextElementSibling;
+
+if(sub.style.display === "block"){
+
+sub.style.display = "none";
+
+}else{
+
+document
+.querySelectorAll(".submenu-content")
+.forEach(item => {
+
+item.style.display = "none";
+
+});
+
+sub.style.display = "block";
+
+}
+
+});
+
+});
+
+/* CLICK NGOÀI MENU THÌ ĐÓNG */
+
+document.addEventListener("click", function(e){
+
+if(!e.target.closest(".menu-item")){
+
+document
+.querySelectorAll(".dropdown-menu")
+.forEach(menu => {
+
+menu.style.display = "none";
+
+});
+
+document
+.querySelectorAll(".submenu-content")
+.forEach(menu => {
+
+menu.style.display = "none";
+
+});
+
+}
+
+});
+/* MỞ GIỎ HÀNG */
+
+const openCart =
+document.getElementById("open-cart");
+
+const closeCart =
+document.getElementById("close-cart");
+
+const sidebar =
+document.getElementById("cart-sidebar");
+
+openCart.addEventListener("click", () => {
+
+    sidebar.classList.add("active");
+
+});
+
+closeCart.addEventListener("click", () => {
+
+    sidebar.classList.remove("active");
+
+});
+
+</script>
+</body>
+</html>
