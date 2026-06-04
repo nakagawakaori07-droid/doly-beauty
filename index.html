@@ -518,6 +518,10 @@ Liên hệ
                 0đ
             </span>
         </h3>
+        <button id="checkout-btn">
+            Thanh toán
+        </button>
+
 
     </div>
 
@@ -626,6 +630,34 @@ removeBtn.addEventListener("click", () => {
     + "đ";
 
 });
+
+});
+const checkoutBtn =
+document.getElementById("checkout-btn");
+
+checkoutBtn.addEventListener("click",()=>{
+
+    if(cartCount === 0){
+
+        alert("Giỏ hàng đang trống!");
+
+        return;
+    }
+
+    alert(
+    "Thanh toán thành công!\nCảm ơn bạn đã mua hàng tại DOLY BEAUTY ❤️"
+    );
+
+    cartCount = 0;
+
+    totalPrice = 0;
+
+    cartNumber.textContent = "0";
+
+    totalPriceText.textContent = "0đ";
+
+    cartItems.innerHTML =
+    "<p>Chưa có sản phẩm nào.</p>";
 
 });
 

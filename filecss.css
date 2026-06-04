@@ -914,3 +914,45 @@ footer{
 
     transform:scale(1.1);
 }
+#checkout-btn{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(
+        90deg,
+        #ff1493,
+        #ff66c4
+    );
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+#checkout-btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 0 15px
+    rgba(
+        255,
+        20,
+        147,
+        0.5
+    );
+}
