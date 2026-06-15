@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trang điểm mặt - DOLY BEAUTY</title>
+
+<link rel="stylesheet" href="../filecss.css">
+<link rel="stylesheet" href="../CSS/category.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="../index.html" class="logo">
+        DOLY BEAUTY
+    </a>
+
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="Tìm kiếm mỹ phẩm...">
+        <button id="search-btn">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <div class="header-right">
+
+        <button class="login-btn">
+            <i class="fas fa-user"></i>
+            Đăng nhập
+        </button>
+
+        <button class="cart-btn" id="open-cart">
+            <i class="fas fa-cart-shopping"></i>
+            Giỏ hàng
+            <span id="cart-count">0</span>
+        </button>
+
+    </div>
+
+</header>
+
+<nav class="navbar">
+
+<ul>
+
+<li class="menu-item">
+
+<button class="menu-btn danhmuc-btn">
+DANH MỤC
+</button>
+
+<div class="dropdown-menu">
+
+<a href="../index.html">Trang chủ</a>
+<a href="trang-diem-mat.html">Trang điểm</a>
+<a href="tay-trang-lam-sach-da.html">Chăm sóc da mặt</a>
+<a href="nuoc-hoa.html">Nước hoa</a>
+<a href="lien-he.html">Liên hệ</a>
+
+</div>
+
+</li>
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Trang điểm
+</button>
+
+<div class="dropdown-menu">
+
+<a href="trang-diem-mat.html">Trang điểm mặt</a>
+<a href="trang-diem-mat-moi.html">Trang điểm mắt môi</a>
+<a href="phu-kien-trang-diem.html">Phụ kiện trang điểm</a>
+
+</div>
+
+</li>
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Chăm sóc da mặt
+</button>
+
+<div class="dropdown-menu">
+
+<a href="tay-trang-lam-sach-da.html">Tẩy trang - Làm sạch da</a>
+<a href="duong-da.html">Dưỡng da</a>
+<a href="chong-nang.html">Chống nắng</a>
+<a href="dan-mun-giay-tham-dau.html">Dán mụn - Giấy thấm dầu</a>
+
+</div>
+
+</li>
+
+<li class="menu-item">
+
+<button class="menu-btn">
+Nước hoa
+</button>
+
+<div class="dropdown-menu">
+
+<a href="nuoc-hoa.html">Nước hoa</a>
+<a href="body-mist.html">Body Mist</a>
+
+</div>
+
+</li>
+
+<li class="menu-item contact-menu">
+
+<a href="lien-he.html" class="menu-btn menu-link">
+Liên hệ
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+<section class="breadcrumb">
+
+<a href="../index.html">Trang chủ</a>
+<span>></span>
+<a href="trang-diem-mat.html">Trang điểm</a>
+<span>></span>
+<span>Trang điểm mặt</span>
+
+</section>
+<section class="category-wrapper">
+
+<div class="category-content">
+
+<h1>Trang điểm mặt</h1>
+
+<span>Sắp xếp:</span>
+
+</div>
+
+<div class="category-grid" id="product-list">
+
+<div class="category-card product-card"
+data-name="Phấn tạo Khối"
+data-price="234000">
+
+<img src="../Ảnh/trangdiem1.png" alt="Kem lót">
+
+<h4>JUDYDOLL</h4>
+<h3>Phấn Bắt Sáng Và Tạo Khối Judydoll Highlight & Contour</h3>
+
+<p>234.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="Phấn Má Hồng Bắt Sáng 3CE Blushlighter 9g"
+data-price="259000">
+
+<img src="../Ảnh/trangdiem2.png" alt="Kem tone up">
+
+<h4>3CE</h4>
+<h3>Phấn Má Hồng Bắt Sáng 3CE Blushlighter 9g</h3>
+
+<p>279.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="Che khuyết điểm"
+data-price="189000">
+
+<img src="../Ảnh/trangdiem3.png" alt="Che khuyết điểm">
+
+<h4>THESAEM</h4>
+<h3> Kem Che Khuyết Điểm The Saem Có Chống Nắng Hàn Quốc Cover Perfection Tip Concealer SPF28/PA++ 6.5g</h3>
+
+<p>119.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="Cushion Chống Nắng Che Phủ Cao Aperire Day Dream Cover Cushion SPF50+/PA++++"
+data-price="349000">
+
+<img src="../Ảnh/trangdiem4.png" alt="Kem nền BB Cream">
+
+<h4>APERIRE</h4>
+<h3>Cushion Chống Nắng Che Phủ Cao Aperire Day Dream Cover Cushion SPF50+/PA++++</h3>
+
+<p>329.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="Kem Nền Kiềm Dầu, Che Phủ Tự Nhiên Catrice HD Liquid Coverage Foundation 30ml"
+data-price="399000">
+
+<img src="../Ảnh/trangdiem5.png" alt="Phấn nước Cushion">
+
+<h4>CATRICE</h4>
+<h3>Kem Nền Kiềm Dầu, Che Phủ Tự Nhiên Catrice HD Liquid Coverage Foundation 30ml</h3>
+
+<p>219.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="xịt Khóa"
+data-price="79000">
+
+<img src="../Ảnh/trangdiem6.jpg" alt="Phấn phủ">
+
+<h4>DAZZLE ME</h4>
+<h3>Xịt Khóa Nền DAZZLE ME Cố Định Trang Điểm Lâu Trôi Get A Grip Makeup Setting Spray 60ml</h3>
+
+<p>79.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="Kem Lót Maybelline Kiềm Dầu, Lâu Trôi, Ngăn Xuống Tông Fit Me Matte + Poreless 16H Mattifying Primer 30ml"
+data-price="179000">
+
+<img src="../Ảnh/trangdiem7.jpg" alt="Má hồng">
+
+<h4>Maybelline</h4>
+<h3>Kem Lót Maybelline Kiềm Dầu, Lâu Trôi, Ngăn Xuống Tông Fit Me Matte + Poreless 16H Mattifying Primer 30ml</h3>
+
+<p>179.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+<div class="category-card product-card"
+data-name="Má Hồng Dạng Kem OFÉLIA Cho Đôi Má Hồng Xinh Xắn Lolli Liquid Blush"
+data-price="235000">
+
+<img src="../Ảnh/trangdiem8.jpg" alt="Tạo khối Highlighter">
+
+<h4>OFÉLIA </h4>
+<h3>Má Hồng Dạng Kem OFÉLIA Cho Đôi Má Hồng Xinh Xắn Lolli Liquid Blush</h3>
+
+<p>235.000đ</p>
+
+<button class="add-cart">
+<i class="fas fa-cart-plus"></i>
+Thêm vào giỏ
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<h3>GIỚI THIỆU</h3>
+
+<p>📍 Nguyễn Chí Thanh, Hà Nội</p>
+<p>📞 0987 654 321</p>
+<p>📧 dolybeauty@gmail.com</p>
+
+<input type="email" placeholder="Nhập email của bạn">
+
+<button>
+Liên hệ
+</button>
+
+</div>
+
+<div class="footer-box">
+
+<h3>CHĂM SÓC KHÁCH HÀNG</h3>
+
+<p>Chính sách đổi trả</p>
+<p>Chính sách bảo mật</p>
+<p>Chính sách thanh toán</p>
+<p>Điều khoản dịch vụ</p>
+<p>Hướng dẫn mua hàng</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>CHÍNH SÁCH</h3>
+
+<p>Hướng dẫn mua hàng</p>
+<p>Chính sách giao hàng</p>
+<p>Chính sách đổi trả</p>
+<p>Chính sách tích lũy điểm</p>
+<p>Chính sách bảo mật thông tin</p>
+
+</div>
+
+</div>
+
+</footer>
+
+<!-- GIỎ HÀNG -->
+
+<div class="cart-sidebar" id="cart-sidebar">
+
+<div class="cart-header">
+
+<h2>🛒 Giỏ Hàng</h2>
+
+<span id="close-cart">✖</span>
+
+</div>
+
+<div id="cart-items">
+
+<p>Chưa có sản phẩm nào.</p>
+
+</div>
+
+<div class="cart-footer">
+
+<h3>
+Tổng:
+<span id="total-price">0đ</span>
+</h3>
+
+<button id="checkout-btn">
+Thanh toán
+</button>
+
+</div>
+
+</div>
+
+<script src="../JS/category.js"></script>
+
+</body>
+</html>

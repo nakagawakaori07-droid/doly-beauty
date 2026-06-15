@@ -956,3 +956,29 @@ footer{
         0.5
     );
 }
+.dropdown-menu a,
+.submenu-content a{
+    display:block;
+    padding:12px 15px;
+    color:#333;
+    text-decoration:none;
+    border-bottom:1px solid #eee;
+    transition:0.3s;
+}
+
+.submenu-content a{
+    padding:10px 30px;
+    font-size:14px;
+    background:#fff9fc;
+}
+
+.dropdown-menu a:hover,
+.submenu-content a:hover{
+    background:#ffd6ec;
+    color:#ff1493;
+}
+.navbar a.menu-btn{
+    display:block;
+    color:white;
+    text-decoration:none;
+}
